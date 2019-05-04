@@ -9,7 +9,6 @@ function add(a, b) {
     let sum = aNum + bNum + carryNum;
     carryNum = sum >= 10 ? 1 : 0;
     sum = sum >= 10 ? sum - 10 : sum;
-
     result = sum.toString() + result;
 
     if (i === largerLength && carryNum === 1) {
