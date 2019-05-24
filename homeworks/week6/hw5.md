@@ -25,7 +25,7 @@ HTML5 專門放置圖片的標籤，`<figure>` 是一個完整內容的區塊，
 - border (邊框)：外框線
 - margin (外邊距)：border 之外與其他元素的距離
   
-
+  
 盒子代表元素所占的空間，而透過 CSS box-sizing 的屬性設定，可以去定義元素是怎麼構成的。
 - `content-box` ：  
 預設的盒模型，元素所占的空間長寬是 content + padding + border。換句話說，元素的總寬高是元素內容的寬度(width) ╱ 高度(height)，另外再加上內距和邊框。  
