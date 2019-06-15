@@ -14,7 +14,8 @@ const showMsg = (json) => {
   }
 };
 
-const loadMsg = (req) => {
+const loadMsg = () => {
+  const req = new XMLHttpRequest();
   req.onload = () => {
     if (req.status >= 200 && req.status < 400) {
       const response = req.responseText;
@@ -29,16 +30,14 @@ const loadMsg = (req) => {
   req.send();
 };
 
-loadMsg(request);
+loadMsg();
 
 const sendMsg = (postContent) => {
   request.open('POST', 'https://lidemy-book-store.herokuapp.com/posts', true);
   request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
   request.send(`content=${postContent}`);
 
-  // 更新頁面
-  const newRequest = new XMLHttpRequest();
-  loadMsg(newRequest);
+  loadMsg();
 };
 
 btn.addEventListener('click', () => {
