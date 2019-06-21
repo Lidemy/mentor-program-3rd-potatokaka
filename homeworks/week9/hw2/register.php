@@ -24,11 +24,11 @@
             
             <form method="POST" action="./handle_register.php" class="register-form">
                 <label for="username">帳號</label><br/>
-                <input id="username" name="username" class="input-underlined" placeholder="請填寫帳號"><br/>
+                <input id="username" name="username" class="input-underlined" placeholder="請填寫帳號"  required="true"><br/>
                 <label for="password">密碼</label><br/>
-                <input id="password" name="password" class="input-underlined" type="password" placeholder="請填寫密碼"><br/>
+                <input id="password" name="password" class="input-underlined" type="password" placeholder="請填寫密碼" required="true"><br/>
                 <label for="nickname">暱稱</label><br/>
-                <input id="nickname" name="nickname" class="input-underlined" placeholder="請填寫暱稱"><br/>
+                <input id="nickname" name="nickname" class="input-underlined" placeholder="請填寫暱稱" required="true"><br/>
                 <input type="submit" value="Register" class="btn">
             </form>
 
