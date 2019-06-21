@@ -7,13 +7,13 @@
   $password = $_POST['password'];
   $nickname = $_POST['nickname'];
 
-  // 檢查資料
-  if (empty($username) || empty($password) || empty($nickname)) {
-    echo "<script>
-      alert('請輸入欄位內容');
-      window.location = 'register.php';
-    </script>";
-  }
+  // 檢查資料為空 → 這部份會出現錯誤，所以改成在 "register.php" input 加上 required="true"
+  // if (empty($username) || empty($password) || empty($nickname)) {
+  //   echo "<script>
+  //     alert('請輸入欄位內容');
+  //     window.location = 'register.php';
+  //   </script>";
+  // }
 
   //確認是否有註冊成功
   $isRegistered = "SELECT * FROM potatokaka_users WHERE username = '$username'";
