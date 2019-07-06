@@ -1,3 +1,5 @@
 node_modules/
 conn.php
+conn_local.php
+conn_remote.php
 .DS_STORE
