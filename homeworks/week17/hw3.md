@@ -8,4 +8,4 @@ undefined
 100  
 
 模擬 JavaScript 引擎來執行一次，如下
-![](https://github.com/potatokaka/ass_test/blob/master/week17/W17-HW3.gif?raw=true)
+![](https://github.com/Lidemy/mentor-program-3rd-potatokaka/blob/week17/homeworks/week17/W17-HW3.gif?raw=true)
