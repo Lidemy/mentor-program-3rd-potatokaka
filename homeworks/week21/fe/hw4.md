@@ -1,5 +1,5 @@
 ## 為什麼我們需要 React？可以不用嗎？
-當專案開始複雜，且功能越來越多時，使用 javaScript 去操作 DOM 並改變 UI，會需要複雜的程序，例如 creatElement、append。為了解決網頁上 DOM 狀態的頻繁改變，以及元件難以規模化的問題，因而產生了 React。
+當專案開始複雜，且功能越來越多時，使用 JavaScript 去操作 DOM 並改變 UI，會需要複雜的程序，例如 creatElement、append。為了解決網頁上 DOM 狀態的頻繁改變，以及元件難以規模化的問題，因而產生了 React。
 
 React 是一個方便建構 UI 的 JavaScript 函式庫，透過元件 (component) 來產生 UI 介面，好處是將元件模組化，易於重覆使用與維護。另外 React 一個最大的優點是網頁效能，React 產生出的 Virtual Dom，一旦元件的狀態改變時， Virtual Dom 會重新繪製，透過 diff 演算法去判斷有更新的部份，再針對該部分重新渲染畫面，更有效提升網頁效能。
 
