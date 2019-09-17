@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gomoku_react/static/css/main.4095680a.chunk.css",
+    "main.js": "/gomoku_react/static/js/main.6846f1b6.chunk.js",
+    "main.js.map": "/gomoku_react/static/js/main.6846f1b6.chunk.js.map",
+    "runtime~main.js": "/gomoku_react/static/js/runtime~main.38a3ef93.js",
+    "runtime~main.js.map": "/gomoku_react/static/js/runtime~main.38a3ef93.js.map",
+    "static/js/2.16ae0c99.chunk.js": "/gomoku_react/static/js/2.16ae0c99.chunk.js",
+    "static/js/2.16ae0c99.chunk.js.map": "/gomoku_react/static/js/2.16ae0c99.chunk.js.map",
+    "index.html": "/gomoku_react/index.html",
+    "precache-manifest.c93f80f475360351e0542f287bc6bc70.js": "/gomoku_react/precache-manifest.c93f80f475360351e0542f287bc6bc70.js",
+    "service-worker.js": "/gomoku_react/service-worker.js",
+    "static/css/main.4095680a.chunk.css.map": "/gomoku_react/static/css/main.4095680a.chunk.css.map"
+  }
+}
