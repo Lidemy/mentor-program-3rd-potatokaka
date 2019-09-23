@@ -32,7 +32,7 @@ class Post extends Component {
 
         <div className="post-item col-md-8 mx-auto mt-3 mb-4">
           <h2>{!post.title ? 'loading...' : post.title}</h2>
-            <p>
+            <p className="single-post__content">
               {post.body}
             </p>
             <Link to="/post" className="btn btn-secondary">Back</Link>
