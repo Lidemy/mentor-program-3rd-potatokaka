@@ -27,7 +27,7 @@ class AddPost extends Component {
       alert('新增成功')
     }).catch(() => {
       alert('新增失敗')
-    }).then(this.setState({
+    }).then(() => this.setState({
       title: '',
       body: ''
     }))

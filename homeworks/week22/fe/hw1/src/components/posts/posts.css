@@ -16,3 +16,7 @@
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
+.single-post__content {
+  white-space: pre-wrap;
+}
